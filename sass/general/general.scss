@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
 
 body{
@@ -6,9 +7,18 @@ body{
 .bg-body-tertiary {
   background-color: #0a1a2f !important;
 }
+
+.navbar{
+  font-family: serif;
+  font-weight: bold;
+  font-style: oblique;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .navbar {
   .nav-link {
-    color: white !important;   // color de las opciones del menú
+    color: #FF6F61 !important;   // color de las opciones del menú
 
     &:hover {
       color: #f0c040 !important;  // color al pasar el mouse
@@ -16,7 +26,7 @@ body{
   }
 
   .navbar-brand {
-    color: white !important;   // color del logo/texto RD MOTORSPORT
+    color: #FF6F61 !important;   // color del logo/texto RD MOTORSPORT
   }
 }
 .navbar-toggler-icon {
